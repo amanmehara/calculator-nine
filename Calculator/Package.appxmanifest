@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="33294AmanMehara.Calculator" Publisher="CN=CA602E8B-3F8D-4B67-8346-FCB9C150FA74" Version="10.0.1.12" />
+  <Properties>
+    <DisplayName>Calculator⁹</DisplayName>
+    <PublisherDisplayName>Aman Mehara</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Calculator.App">
+      <m2:VisualElements DisplayName="Calculator" Description="Calculator" BackgroundColor="#000066" ForegroundText="light" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png">
+        <m2:DefaultTile Wide310x150Logo="Assets\WideLogo.png">
+        </m2:DefaultTile>
+        <m2:SplashScreen BackgroundColor="#000000" Image="Assets\SplashScreen.png" />
+        <m2:ApplicationView MinWidth="width500" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+</Package>

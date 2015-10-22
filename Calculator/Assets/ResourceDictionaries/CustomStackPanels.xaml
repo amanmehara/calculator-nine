@@ -1,0 +1,14 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator">
+
+    <Style x:Name="MainStackPanel"
+           TargetType="StackPanel">
+        <Setter Property="Grid.Row"
+                Value="1"/>
+        <Setter Property="Margin"
+                Value="120,24,24,48"/>
+    </Style>
+
+</ResourceDictionary>
